@@ -20,7 +20,7 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/reversed-dcf.git
+   git clone https://github.com/GauravBohra2001/ambit_dashboard.git
 
 ## 2. Setup Instructions
 
