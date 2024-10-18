@@ -1,6 +1,6 @@
-# Reverse DCF Dashboard
+# Ambit Dashboard
 
-Reverse DCF Dashboard is an interactive web app for performing Discounted Cash Flow (DCF) valuation using a growth-RoC model. The app fetches financial data from Screener.in, calculates intrinsic PE, and assesses the degree of overvaluation for user-specified companies.
+Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (DCF) valuation using a growth-RoC model. The app fetches financial data from Screener.in, calculates intrinsic PE, and assesses the degree of overvaluation for user-specified companies.
 
 ## Features
 - **User Input for Company Symbol**: Enter any NSE/BSE company symbol to retrieve financial data directly from Screener.in.
