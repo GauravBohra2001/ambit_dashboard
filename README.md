@@ -10,12 +10,14 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
   - Computes intrinsic PE and evaluates the degree of overvaluation based on current and FY23 PE.
   - Provides flexibility with user-adjustable parameters to customize the valuation process.
 - **Clean and Interactive UI**: Displays results in a structured format with real-time updates based on user inputs.
+- **Error Handling**: Robust error handling for scraping and calculations, ensuring the app remains stable.
 
 ## Technologies Used
 - **Python**: Main programming language for data processing and calculations.
 - **Streamlit**: For creating the interactive web dashboard.
 - **BeautifulSoup and Requests**: For web scraping financial data from Screener.in.
 - **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For visualizing Discounted Cash Flows.
 
 ## Installation
 1. **Clone the repository**:
@@ -26,24 +28,9 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
 
 - Navigate to the Project Directory:
   ```bash
-  cd reversed-dcf
+  cd ambit_dashboard
   ```
-
-- Set Up a Virtual Environment:
-  ```bash
-  python -m venv venv
-  ```
-
-- Activate the Virtual Environment:
-  - On Windows:
-    ```bash
-    venv\Scripts\activate
-    ```
-  - On macOS/Linux:
-    ```bash
-    source venv/bin/activate
-    ```
-
+  
 - Install the Required Dependencies:
   ```bash
   pip install -r requirements.txt
@@ -61,12 +48,9 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
 
 ## 4. Project Structure
 - **app.py**: The main script that runs the Streamlit app.
-- **scraper.py**: Contains the functions for scraping data from Screener.in.
-- **calculations.py**: Includes functions for performing DCF and other financial calculations.
 - **requirements.txt**: Lists all the dependencies needed to run the project.
+- **EQUITY_L.csv**: Contain NSE Data.
+- **Equity.csv**: Contain BSE Data.
+- **StockData.xlsx**: Contain Combined data.
 - **README.md**: Project documentation.
-
-## 5. Contributing
-Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request. Please ensure that your changes are well-documented and tested.
-
 
