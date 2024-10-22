@@ -49,5 +49,8 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
 ## 4. Project Structure
 - **app.py**: The main script that runs the Streamlit app.
 - **requirements.txt**: Lists all the dependencies needed to run the project.
+- **EQUITY_L.csv**: Contain NSE Data.
+- **Equity.csv**: Contain BSE Data.
+- **StockData.xlsx**: Contains Combined data.
 - **README.md**: Project documentation.
 
