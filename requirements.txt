@@ -4,5 +4,4 @@ numpy==1.25.1
 pandas==2.0.3
 Requests==2.32.3
 streamlit==1.39.0
-~==reamlit
-~treamlit==1.24.1
+
