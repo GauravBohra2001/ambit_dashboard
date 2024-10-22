@@ -51,6 +51,6 @@ Ambit Dashboard is an interactive web app for performing Discounted Cash Flow (D
 - **requirements.txt**: Lists all the dependencies needed to run the project.
 - **EQUITY_L.csv**: Contain NSE Data.
 - **Equity.csv**: Contain BSE Data.
-- **StockData.xlsx**: Contains Combined data.
+- **StockData.xlsx**: Contain Combined data.
 - **README.md**: Project documentation.
 
