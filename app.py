@@ -1,11 +1,11 @@
-import os
+# import os
 
-# Install the required packages if they are not available
-os.system("pip install requests==2.28.1")
-os.system("pip install beautifulsoup4==4.11.1")
-os.system("pip install pandas==1.4.3")
-os.system("pip install streamlit==1.12.2")
-os.system("pip install matplotlib==3.5.2")
+# # Install the required packages if they are not available
+# os.system("pip install requests==2.28.1")
+# os.system("pip install beautifulsoup4==4.11.1")
+# os.system("pip install pandas==1.4.3")
+# os.system("pip install streamlit==1.12.2")
+# os.system("pip install matplotlib==3.5.2")
 
 
 import requests
